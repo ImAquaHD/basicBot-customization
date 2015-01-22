@@ -53,12 +53,12 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "OP Bot",
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         maximumAfk: 120,
         afkRemoval: true,
-        maximumDc: 60,
+        maximumDc: 10,
         bouncerPlus: true,
         lockdownEnabled: false,
         lockGuard: false,
@@ -68,28 +68,28 @@
         timeGuard: true,
         maximumSongLength: 10,
         autodisable: true,
-        commandCooldown: 30,
+        commandCooldown: 3,
         usercommandsEnabled: true,
         lockskipPosition: 3,
-        lockskipReasons: [
+        lockskipReasons: ["unavailable", "The song you played was not available for some users. "
             ["theme", "This song does not fit the room theme. "],
             ["op", "This song is on the OP list. "],
             ["history", "This song is in the history. "],
             ["mix", "You played a mix, which is against the rules. "],
             ["sound", "The song you played had bad sound quality or no sound. "],
             ["nsfw", "The song you contained was NSFW (image or sound). "],
-            ["unavailable", "The song you played was not available for some users. "]
+            [unavailable", "The song you played was not available for some users. "
         ],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
         motdEnabled: false,
         motdInterval: 5,
-        motd: "Temporary Message of the Day",
+        motd: "Welcome to this plug, enjoy your time ",
         filterChat: true,
-        etaRestriction: false,
+        etaRestriction: true,
         welcome: true,
         opLink: null,
-        rulesLink: null,
+        rulesLink: https://docs.google.com/document/d/1gHT426uhg2TBS1-0rXQ2rjWyb_U5pRWwqd5eHNv7tIw/edit
         themeLink: null,
         fbLink: null,
         youtubeLink: null,
